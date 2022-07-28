@@ -171,7 +171,7 @@
     </header>
     <!-- Menu section is End -->
     <!-- Popular courses section is start -->
-    <main class="container my-5 pt-3" id="popular_course">
+    <main class="container my-5 pt-5" id="popular_course">
       <section>
         <div class="text-center">
           <h1 class="display-6">
@@ -188,8 +188,8 @@
           </div>
         </div>
       </section>
-
-      <article class="mt-5">
+      <!-- Course section -->
+      <article class="my-5 pb-5">
         <div class="container">
           <div class="courses row g-4">
             <div class="col-lg-6">
@@ -264,53 +264,121 @@
                 <div class="course_info">
                   <h5>Digital Marketing</h5>
                   <p class="text-muted">
-                    Digital marketing is any
-                    marketing strategy that takes place through online
+                    Digital marketing is any marketing strategy that takes place
+                    through online
                   </p>
                   <p class="text-info fw-bold">Price:25$</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
-                <div
-                  class="course_item d-flex align-items-center justify-content-center border gap-4"
-                >
-                  <img
-                    src="./images/course/course-4.png"
-                    class="img-fluid"
-                    alt="course_img"
-                  />
-                  <div class="course_info">
-                    <h5>Photography Basic Rules</h5>
-                    <p class="text-muted">
-                      You can learn professional photography in this course.
-                    </p>
-                    <p class="text-info fw-bold">Price:25$</p>
-                  </div>
+              <div
+                class="course_item d-flex align-items-center justify-content-center border gap-4"
+              >
+                <img
+                  src="./images/course/course-5.png"
+                  class="img-fluid"
+                  alt="course_img"
+                />
+                <div class="course_info">
+                  <h5>Photography Basic Rules</h5>
+                  <p class="text-muted">
+                    You can learn professional photography in this course.
+                  </p>
+                  <p class="text-info fw-bold">Price:25$</p>
                 </div>
               </div>
+            </div>
 
-              <div class="col-lg-6">
-                <div
-                  class="course_item d-flex align-items-center justify-content-center border gap-4"
-                >
-                  <img
-                    src="./images/course/course-6.png"
-                    class="img-fluid"
-                    alt="course_img"
-                  />
-                  <div class="course_info">
-                    <h5>Motion Graphics</h5>
-                    <p class="text-muted">
-                      You can expert in motion graphics. It is most demandable skill Now.
-                    </p>
-                    <p class="text-info fw-bold">Price:25$</p>
-                  </div>
+            <div class="col-lg-6">
+              <div
+                class="course_item d-flex align-items-center justify-content-center border gap-4"
+              >
+                <img
+                  src="./images/course/course-6.png"
+                  class="img-fluid"
+                  alt="course_img"
+                />
+                <div class="course_info">
+                  <h5>Motion Graphics</h5>
+                  <p class="text-muted">
+                    You can expert in motion graphics. It is most demandable
+                    skill Now.
+                  </p>
+                  <p class="text-info fw-bold">Price:25$</p>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </article>
+      <!-- Subscription section  -->
+      <section
+        class="subscription d-flex align-items-center justify-content-around rounded bg-info my-5 p-5"
+      >
+        <div class="sub_info text-light">
+          <h2>Ready to join?</h2>
+          <p>Keep up our latest news and events. Subscribe our newsletter</p>
+        </div>
+        <div class="register_button">
+          <!-- Button trigger modal -->
+          <button
+            type="button"
+            class="btn btn-light text-info fw-bold"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            Register Now
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">NEWSLETTER</h5>
+                  
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <div class="input-group mb-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      aria-label="Sizing example input"
+                      aria-describedby="inputGroup-sizing-default"
+                      placeholder="Email address...."
+                    />
+                    <button class="text-light input-group-text btn btn-info">
+                      SUBSCRIBE
+                    </button>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Popular courses section is end -->
 
